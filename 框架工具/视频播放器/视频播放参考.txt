@@ -1,0 +1,4 @@
+哔哩哔哩官方SDK：
+https://github.com/Bilibili/ijkplayer
+基于哔哩哔哩官方SDK-ijkplayer的播放界面二次实现
+https://github.com/jjdxmashl/jjdxm_ijkplayer/

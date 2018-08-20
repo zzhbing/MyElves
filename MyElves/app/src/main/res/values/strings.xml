@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyElves</string>
+    <string name="main_Title" translatable="false">首页</string>
+
+    <string name="Dialog_Notice" translatable="false">提醒</string>
+    <string name="Dialog_Storage_content" translatable="false">需要用到存储权限,是否授权?</string>
+    <string name="Dialog_PhoneState_content" translatable="false">需要用到手机状态权限,是否授权?</string>
+    <string name="Dialog_Agree" translatable="false">授权</string>
+    <string name="Dialog_Disagree" translatable="false">不授权</string>
+
+    <string name="Notice_LoginingPleaseWait">登录中，请稍候…</string>
+    <string name="Notice_LoginSuccess">登录成功！</string>
+    <string name="Notice_LoginFail">登录失败！</string>
+
+    <string name="Wrong_Network">网络连接错误！</string>
+    <string name="Wrong_WebService">服务器异常！</string>
+</resources>

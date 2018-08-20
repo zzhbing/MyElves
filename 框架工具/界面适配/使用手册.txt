@@ -1,0 +1,11 @@
+运行cmd进入命令提示符
+
+然后进入相应的文件所在目录
+
+这是编译java：
+javac GenerateValueFiles.java
+             
+这是运行java：
+java GenerateValueFiles 
+                      
+得出结果
