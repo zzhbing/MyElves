@@ -580,4 +580,22 @@ public class FileUtil {
         }
         return size;
     }
+
+    /**
+     * 获取SD卡的根目录
+     */
+    static String getSDPath() {
+        File sdDir = null;
+        // 判断sd卡是否存在
+        boolean sdCardExist = Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED);
+        if (sdCardExist) {
+            // 获取跟目录
+            sdDir = Environment.getExternalStorageDirectory();
+        }
+        if (sdDir == null) {
+            return "";
+        } else {
+            return sdDir.getAbsolutePath();
+        }
+    }
 }

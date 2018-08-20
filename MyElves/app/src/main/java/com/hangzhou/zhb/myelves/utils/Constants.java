@@ -17,4 +17,10 @@ public class Constants {
 
     //推送通知
     public static int NOTIFICATIONID = 0;
+
+    //系统更新通知
+    public static int NOTIFICATIONID_APP = 7000;
+
+    private static final String ROOT_PATH = FileUtil.getSDPath() + "/us";
+    public static final String APK_PATH = ROOT_PATH + "/apk";
 }
