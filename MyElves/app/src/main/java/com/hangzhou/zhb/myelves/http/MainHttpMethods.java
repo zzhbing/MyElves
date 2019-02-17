@@ -24,7 +24,7 @@ public class MainHttpMethods {
         client.setConnectTimeout(Constants.DEFAULT_TIMEOUT, TimeUnit.SECONDS);
         Retrofit retrofit = new Retrofit.Builder()
                 .client(client)
-                .baseUrl(Constants.BASE_URL)//real
+                .baseUrl(Constants.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .build();

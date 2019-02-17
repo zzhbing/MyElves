@@ -1,4 +1,4 @@
-package com.hangzhou.zhb.myelves.utils.Download;
+package com.hangzhou.zhb.myelves.utils.download;
 
 public interface UpdateDownloadListener {
 	void onStarted();

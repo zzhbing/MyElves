@@ -55,7 +55,6 @@
         <service android:name="com.amap.api.location.APSService"/>
 
         <!-- 个推SDK配置开始 -->
-        <!-- 用户自定义服务名 -->
         <service
             android:name=".utils.getui.PushService"
             android:exported="true"
@@ -65,7 +64,7 @@
         <service android:name=".utils.getui.IntentService"/>
 
         <!--安装包下载服务-->
-        <service android:name=".utils.Download.UpdateService" />
+        <service android:name=".utils.download.UpdateService" />
 
         <!--base-->
         <activity android:name=".module.base.BaseActivity"
