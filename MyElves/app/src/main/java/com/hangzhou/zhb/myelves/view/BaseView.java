@@ -36,4 +36,6 @@ public class BaseView extends View {
     private void initPaint(){
         paint.setColor(getResources().getColor(R.color.B_00FFFF));
     }
+
+
 }
