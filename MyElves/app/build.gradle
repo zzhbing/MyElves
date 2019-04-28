@@ -78,18 +78,11 @@ dependencies {
     api 'com.amap.api:location:3.8.0'
 
     //个推
-    api 'com.android.support:support-v4:27.1.1'
     api 'com.getui:sdk:2.11.1.0'
 
     //zxing
     api 'com.github.open-android:Zxing:v1.0.3'
     implementation 'org.jetbrains:annotations-java5:15.0'
-
-    //TabLayout,Android5.0,http://blog.csdn.net/lengxuechiwu1314/article/details/71079546
-    //api "com.android.support:design:27.1.1"
-
-    //CardView,配合RecyclerView：https://www.jianshu.com/p/33b1d21d6ba6
-    //api 'com.android.support:cardview-v7:27.1.1'
 
     //时间控件
     //compile 'com.contrarywind:Android-PickerView:3.2.7'
