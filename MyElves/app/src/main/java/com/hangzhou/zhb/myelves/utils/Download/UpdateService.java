@@ -1,17 +1,20 @@
-package com.hangzhou.zhb.myelves.utils.download;
+package com.hangzhou.zhb.myelves.utils.Download;
 
+import android.annotation.SuppressLint;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.Message;
-import android.support.annotation.Nullable;
 import android.util.Log;
+
+import androidx.annotation.Nullable;
 
 import com.hangzhou.zhb.myelves.R;
 import com.hangzhou.zhb.myelves.module.main.MainActivity;
 
+@SuppressLint("Registered")
 public class UpdateService extends Service {
 	UpdateManagerNotification mUpdateManagerNotification;
 

@@ -9,9 +9,9 @@ import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Build;
-import android.os.Bundle;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationManagerCompat;
+
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 
 import com.google.gson.Gson;
 import com.hangzhou.zhb.myelves.R;
@@ -23,6 +23,7 @@ import com.hangzhou.zhb.myelves.utils.MyLog;
 import com.hangzhou.zhb.myelves.utils.MyTime;
 import com.igexin.sdk.GTIntentService;
 import com.igexin.sdk.message.GTCmdMessage;
+import com.igexin.sdk.message.GTNotificationMessage;
 import com.igexin.sdk.message.GTTransmitMessage;
 
 import java.util.ArrayList;
@@ -96,6 +97,16 @@ public class IntentService extends GTIntentService {
 
 	@Override
 	public void onReceiveCommandResult(Context context, GTCmdMessage cmdMessage) {
+	}
+
+	@Override
+	public void onNotificationMessageArrived(Context context, GTNotificationMessage gtNotificationMessage) {
+
+	}
+
+	@Override
+	public void onNotificationMessageClicked(Context context, GTNotificationMessage gtNotificationMessage) {
+
 	}
 
 	/**

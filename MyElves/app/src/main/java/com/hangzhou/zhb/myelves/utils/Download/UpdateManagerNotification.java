@@ -1,4 +1,4 @@
-package com.hangzhou.zhb.myelves.utils.download;
+package com.hangzhou.zhb.myelves.utils.Download;
 
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
@@ -10,8 +10,9 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationManagerCompat;
+
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 
 import com.hangzhou.zhb.myelves.R;
 import com.hangzhou.zhb.myelves.utils.Constants;

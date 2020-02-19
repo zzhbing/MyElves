@@ -2,7 +2,8 @@ package com.hangzhou.zhb.myelves.utils;
 
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.hangzhou.zhb.myelves.module.base.BaseFragment;
 

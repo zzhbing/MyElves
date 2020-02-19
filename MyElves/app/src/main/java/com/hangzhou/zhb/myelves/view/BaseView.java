@@ -3,9 +3,10 @@ package com.hangzhou.zhb.myelves.view;
 import android.content.Context;
 import android.graphics.Paint;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.view.View;
+
+import androidx.annotation.RequiresApi;
 
 import com.hangzhou.zhb.myelves.R;
 
