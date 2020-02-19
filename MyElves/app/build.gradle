@@ -62,8 +62,8 @@ dependencies {
     api 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta2'
 
     // butterKnife
-    api 'com.jakewharton:butterknife:8.8.1'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    api 'com.jakewharton:butterknife:10.2.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
 
     // 提示框控件
     api 'com.afollestad.material-dialogs:core:0.9.6.0'
@@ -71,11 +71,11 @@ dependencies {
     //高德3D地图,支持离线地图,导航SDK已包含3dmap，不要重复引用
     //    compile 'com.amap.api:3dmap:latest.integration'
     //高德导航
-    api 'com.amap.api:navi-3dmap:6.0.1_3dmap6.1.0'
+    api 'com.amap.api:navi-3dmap:7.2.0_3dmap7.2.0'
     //高德搜索
-    api 'com.amap.api:search:6.1.0'
+    api 'com.amap.api:search:7.1.0'
     //高德定位
-    api 'com.amap.api:location:3.8.0'
+    api 'com.amap.api:location:4.8.0'
 
     //个推
     api 'com.getui:sdk:2.13.2.0'
