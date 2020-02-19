@@ -48,40 +48,40 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     //Android6.0以上动态权限申请框架
-    api("com.github.hotchemi:permissionsdispatcher:3.2.0") {
+    implementation("com.github.hotchemi:permissionsdispatcher:3.2.0") {
         // if you don't use android.app.Fragment you can exclude support for them
         exclude module: "support-v13"
     }
     annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:3.2.0"
 
     //retrofit+rxjava+okhttp网络框架
-    api 'io.reactivex:rxandroid:1.2.1'
-    api 'io.reactivex:rxjava:1.3.0'
-    api 'com.squareup.retrofit:retrofit:2.0.0-beta2'
-    api 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
-    api 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta2'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    implementation 'io.reactivex:rxjava:1.3.0'
+    implementation 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+    implementation 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+    implementation 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta2'
 
     // butterKnife
-    api 'com.jakewharton:butterknife:10.2.0'
+    implementation 'com.jakewharton:butterknife:10.2.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
 
     // 提示框控件
-    api 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
 
     //高德3D地图,支持离线地图,导航SDK已包含3dmap，不要重复引用
     //    compile 'com.amap.api:3dmap:latest.integration'
     //高德导航
-    api 'com.amap.api:navi-3dmap:7.2.0_3dmap7.2.0'
+    implementation 'com.amap.api:navi-3dmap:7.2.0_3dmap7.2.0'
     //高德搜索
-    api 'com.amap.api:search:7.1.0'
+    implementation 'com.amap.api:search:7.1.0'
     //高德定位
-    api 'com.amap.api:location:4.8.0'
+    implementation 'com.amap.api:location:4.8.0'
 
     //个推
-    api 'com.getui:sdk:2.13.2.0'
+    implementation 'com.getui:sdk:2.13.2.0'
 
     //zxing
-    api 'com.github.open-android:Zxing:v1.0.3'
+    implementation 'com.github.open-android:Zxing:v1.0.3'
     implementation 'org.jetbrains:annotations-java5:15.0'
 
     //时间控件
